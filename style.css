@@ -1,0 +1,43 @@
+  body{
+            color: rgba(31, 73, 30, 0.733);
+            background-color: rgba(165, 233, 164, 0.733);
+        }   
+       .picture{
+            width: 350px;
+            height: 300px;
+            box-shadow: 5px 5px 7px rgb(17, 61, 17);
+            border-radius: 10px;
+        }
+        header{
+            text-align: center;
+        }
+        header h1{
+            letter-spacing: 7px;
+        }
+        main h2{
+            text-align:center;
+        }
+        main table{
+            text-align:center;
+        }
+
+        table{
+            border: 1px solid rgb(17, 61, 17);
+            border-radius: 10px;
+        }
+
+        td{  
+            border: 1px solid;
+            border-radius: 10px;
+        }
+
+        .stylish{
+            border: 1px solid rgb(17, 61, 17);
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-bottom: 3px;
+        }
+
+        table mark{
+            background-color: rgb(243, 153, 198);
+        }

@@ -5,30 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Первая работа</title>
 
-    <Style>
-        body{
-            color: rgba(31, 73, 30, 0.733);
-            background-color: rgba(165, 233, 164, 0.733);
-        }   
-       .picture{
-            width: 350px;
-            height: 300px;
-            box-shadow: 5px 5px 7px rgb(17, 61, 17);
-            border-radius: 10px;
-        }
-        header{
-            text-align: center;
-        }
-        header h1{
-            letter-spacing: 7px;
-        }
-        main h2{
-            text-align:center;
-        }
-        main table{
-            text-align:center;
-        }
-    </Style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -95,56 +72,57 @@
             Видеокарта
         </h3>
         <p>
-            Видеокарта (также видеоадаптер, видеоплата, графический адаптер, графический ускоритель) — устройство, которое отвечает за обработку и вывод изображений на экран монитора. Оно преобразует цифровой графический образ, хранящийся в памяти компьютера, в форму, пригодную для вывода на экран. 
+            Видеокарта (также видеоадаптер, видеоплата, графический адаптер, графический ускоритель) — устройство, которое отвечает за обработку и вывод изображений на экран монитора. <br> 
+                <b><i>Примечание: преобразует цифровой графический образ, хранящийся в памяти компьютера, в форму, пригодную для вывода на экран.</i></b> 
         </p>
         <img class="picture" src="photo6.png" alt="">
 
-        <hr><h2>Характеристики главных составляющих</h2><hr>
+        <h2 class = 'stylish'>Характеристики главных составляющих</h2>
 
         <table>
             <tr>
-                <td>Составной элемент</td>
-                <td>Название модели</td>
-                <td>Дополнительные характеристики</td>
-                <td>Средняя стоимость</td>
-                <td>Тест на производительность</td>
-                <td>Фотография</td> 
+                <td><mark>Составной элемент</mark></td>
+                <td><mark>Название модели</mark></td>
+                <td><mark>Дополнительные характеристики</mark></td>
+                <td><mark>Средняя стоимость</mark></td>
+                <td><mark>Тест на производительность</mark></td>
+                <td><mark>Фотография</mark></td> 
             </tr>
 
             <tr>
                 <td>Motherboard</td>
                 <td>Gigabyte H410M S2H</td>
-                <td>Version F3 ; Technology Co. Ltd. ; Date 08/28/2020</td>
-                <td>5 тысяч</td>
-                <td></td>
-                <td></td>
-            </tr>
-
-            <tr>
-                <td>CPU </td>
-                <td>HexaCore Intel Core i5-10400</td>
-                <td>(Comet Lake-S) ; 2900 MHz ; 6 cores ; 12 threads</td>
-                <td>9 тысяч</td>
-                <td><img src="photo7.png" alt="">   MEMORY READ: 383.72 в аиде пишет 18021 MB/s ; MEMORY WRITE: 378.54 или вообще в аиде 17992 MB/s</td>
+                <td>Version F3 ; Technology Co. Ltd. ; Socket LGA 1200</td>
+                <td>6.5 тысяч</td>
+                <td>Существует много разных программ для узкоспециального тестирования, поэтому и значения будут разные</td>
                 <td><img class="picture" src="photo8.png" alt=""></td>
             </tr>
 
             <tr>
-                <td>RAM</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>CPU</td>
+                <td>(HexaCore) Intel Core i5-10400</td>
+                <td>Comet Lake-S ; 2900 MHz ; 6 cores ; 12 threads</td>
+                <td>10.5 тысяч</td>
+                <td>CPU Single Thread: 383.4 ; CPU Multi Thread: 2951.4 ???</td>
+                <td><img class="picture" src="photo7.png" alt=""></td>
+            </tr>
+
+            <tr>
+                <td>RAM (random access memory)</td>
+                <td>DDR 4</td>
+                <td>32 GBytes ; 2666 MHz ; Form-factor DIMM ; Memory module 1</td>
+                <td>13 тысяч</td>
+                <td>MEMORY READ: 20088 MB/s ; MEMORY WRITE: 17220 MB/s</td>
+                <td><img class="picture" src="photo9.png"></td>
             </tr>
 
             <tr>
                 <td>Hard</td>
-                <td>SSD</td>
-                <td></td>
-                <td></td>
-                <td>MEMORY READ: 379.44 MB/s ; MEMORY WRITE: 356.71 MB/s</td>
-                <td></td>
+                <td>Samsung 870 EVO 1TB</td>
+                <td>SSD ; SATA interface ; Flash memory V-NAND 3-bit MLC</td>
+                <td>7 тысяч</td>
+                <td>MEMORY READ: 379.44 MB/s ; MEMORY WRITE: 356.71 MB/s ???</td>
+                <td><img class="picture" src="photo10.png"></td>
             </tr>
 
             <tr>
@@ -153,7 +131,7 @@
                 <td>(GP107) ; 1455 MHz ; 768 cores ; 6 CUs ; Driver 560.94</td>
                 <td>14 тысяч</td>
                 <td>MEMORY READ: 4908 MB/s ; MEMORY WRITE: 7238 MB/s</td>
-                <td></td>
+                <td><img class="picture" src="photo11.png" alt=""></td>
             </tr>
         </table>
     </main>
