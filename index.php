@@ -14,5 +14,8 @@
     <form action="user_list.php">
         <input type="submit" value="Показать всех пользователей">
     </form>
+    <form action="goods_list.php">
+        <input type="submit" value="Показать все товары">
+    </form>
 </body>
 </html>
